@@ -15,12 +15,12 @@ By default, variables in Kotlin are non-null types, which means you cannot assig
 
 ```kotlin 
 // example code snippet
-val a: String = "value" // non-null type
+var a: String = "value" // non-null type
 a = null // This will cause a compilation error
 ```
 ```kotlin 
 // example code snippet
-val a: String? = "value" // nullable type
+var a: String? = "value" // nullable type
 a = null // This will compile
 ```
 
